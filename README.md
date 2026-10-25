@@ -20,7 +20,7 @@ a prova.
 É preciso ter Python 3.9 ou superior. O revisor não depende de nenhuma outra biblioteca.
 
 ```bash
-pip install git+https://github.com/SEU-USUARIO/revisor-forense
+pip install git+https://github.com/atonielqueiroz/revisor-forense
 ```
 
 ## Uso

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revisor-forense"
+version = "0.1.0"
+description = "Aponta marcas de escrita automatizada e fórmulas de praxe em peças jurídicas em português."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Atoniel Queiroz dos Santos" }]
+requires-python = ">=3.9"
+keywords = ["direito", "advocacia", "peças jurídicas", "revisão textual", "inteligência artificial", "português"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+revisor-forense = "revisor_forense.cli:main"
+
+[tool.setuptools]
+packages = ["revisor_forense"]

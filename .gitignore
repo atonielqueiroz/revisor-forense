@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+# Nunca versionar peças, autos ou relatórios de casos reais.
+*.docx
+*.pdf
+relatorio*.json
+!exemplos/*.md
